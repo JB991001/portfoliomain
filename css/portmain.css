@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #222; 
+}
+
+/* 네비게이션 바 스타일 */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(100, 100, 100, 1);
+    color: white;
+    font-size: 20px;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* 로고 스타일 */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5); 
+}
+
+/* 메뉴 스타일 */
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, text-shadow 0.3s;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3); 
+}
+
+.menu ul li a:hover {
+    color: #f4a261;
+    text-shadow: 2px 2px 10px rgba(244, 162, 97, 0.8); 
+}
+
+/* 배경 스타일 */
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+.leftBox {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, 1);
+}
+
+.rightBox {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, 1);
+}
+
+/* 중앙 이미지 스타일 */
+.imgBox {
+    position: absolute;
+    top: 54%;
+    left: 49.4%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
+
+.imgBox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+/* 어두운 배경에서 쓰는 버튼 스타일 */
+.tour, .woodin, .ansan, .dot, .portfolio, .break, .apple {
+    position: absolute;
+    cursor: pointer;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* 밝은 배경에서 쓰는 버튼 스타일 */
+.aboutMe, .Skills, .contact, .guestBook, .toDoList {
+    position: absolute;
+    cursor: pointer;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease-in-out;
+}
+
+/* 위치 설정 */
+.tour {
+    top: 186px;
+    left: 230px;
+    width: 650px;
+    height: 78px;
+}
+
+.woodin {
+    top: 352px;
+    left: 240px;
+    width: 496px;
+    height: 28px;
+}
+
+.ansan {
+    top: 385px;
+    left: 238px;
+    width: 664px;
+    height: 62px;
+}
+
+.portfolio {
+    top: 513px;
+    left: 243px;
+    width: 593px;
+    height: 33px;
+}
+
+.dot {
+    top: 615px;
+    left: 242px;
+    width: 605px;
+    height: 31px;
+}
+
+.break {
+    top: 646px;
+    left: 243px;
+    width: 528px;
+    height: 31px;
+}
+
+.apple {
+    top: 745px;
+    left: 242px;
+    width: 601px;
+    height: 70px;
+}
+
+/* 밝은 배경 버튼 위치 설정 */
+.aboutMe {
+    top: 183px;
+    left: 1076px;
+    width: 558px;
+    height: 35px;
+}
+
+.Skills {
+    top: 285px;
+    left: 1079px;
+    width: 496px;
+    height: 31px;
+}
+
+.contact {
+    top: 382px;
+    left: 1077px;
+    width: 558px;
+    height: 33px;
+}
+
+.guestBook {
+    top: 482px;
+    left: 1077px;
+    width: 679px;
+    height: 69px;
+}
+
+.toDoList {
+    top: 614px;
+    left: 1074px;
+    width: 517px;
+    height: 38px;
+}
+
+/* 링크 스타일 */
+.tour a, .woodin a, .ansan a, .portfolio a, .dot a, .break a, .apple a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.aboutMe a, .Skills a, .contact a, .guestBook a, .toDoList a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black; 
+    text-decoration: none;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 버튼 호버 효과 */
+.tour:hover, .woodin:hover, .ansan:hover, .portfolio:hover, .dot:hover, .break:hover, .apple:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.5);
+}
+
+.aboutMe:hover, .Skills:hover, .contact:hover, .guestBook:hover, .toDoList:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.textBox{
+    position: absolute;
+    top: 750px;
+    left : 1075px;
+    color : black;
+    z-index: 50;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pc{
+    position: absolute;
+    color:white;
+    z-index: 50;
+    font-size: 40px;
+}
+.mob{
+    position: absolute;
+    color:white;
+    z-index: 50;
+    font-size: 35px; 
+}
+
+.p1{
+    top: 195px;
+    left: 885px;
+}
+.m1{
+    top: 200px;
+    left: 920px;
+}
+
+.p2{
+    top : 330px;
+    left : 740px;
+}
+.p3{
+    top:385px;
+    left : 900px;
+}
+.m3{
+    top:390px;
+    left : 932px;
+}
+.p4{
+    top : 500px;
+    left : 840px;
+}
+.p5{
+    top : 600px;
+    left : 850px;
+}
+.p6{
+    top : 635px;
+    left : 780px;
+}
+.p7{
+    top : 750px;
+    left : 850px;
+}
