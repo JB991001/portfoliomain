@@ -10,7 +10,7 @@ const typingTexts = {
     'break': '//캔버스, 키 입력, 인터페이스',
     'apple': '//Node.js, GCP, SQL, 랭킹시스템, 애니메이션',
     'guestBook': '//Node.js, GCP, SQL',
-    'toDoList': '//Node.js, GCP, SQL, token, bcrypt 로그인, 회원가입',
+    'toDoList': '//Node.js, GCP, SQL, token, bcrypt, 로그인, 회원가입',
 };
 
 // 각 버튼에 이벤트 추가
