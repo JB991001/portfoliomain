@@ -2,15 +2,15 @@ const typingContainer = document.getElementById('typing-container');
 
 // 각 버튼에 맞는 타이핑 텍스트 설정
 const typingTexts = {
-    'tour': '//카카오 공공 API, 기획서(피그마), 캔버스, 그래프(R프로그래밍)',
-    'woodin': '//jQuery, CSS(@Media), 스크롤 이벤트, 그리드',
-    'ansan': '//계산기, 정규식, 슬라이드, 모달',
+    'tour': '//Kakao Public API, Planning (Figma), Canvas, Graph (R Programming)',
+    'woodin': '//jQuery, CSS (@Media), Scroll Events, Grid',
+    'ansan': '//Calculator, Regular Expressions, Slideshow, Modal',
     'portfolio': '//iFrame, target',
-    'dot': '//캔버스, 키 입력',
-    'break': '//캔버스, 키 입력, 인터페이스',
-    'apple': '//Node.js, GCP, SQL, 랭킹시스템, 애니메이션',
+    'dot': '//Canvas, Key Input',
+    'break': '//Canvas, Key Input, Interface',
+    'apple': '//Node.js, GCP, SQL, Ranking System, Animation',
     'guestBook': '//Node.js, GCP, SQL',
-    'toDoList': '//Node.js, GCP, SQL, token, bcrypt, 로그인, 회원가입',
+    'toDoList': '//Node.js, GCP, SQL, Token, Bcrypt, Login, Signup'
 };
 
 // 각 버튼에 이벤트 추가
