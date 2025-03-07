@@ -3,7 +3,7 @@ const typingContainer = document.getElementById('typing-container');
 // 각 버튼에 맞는 타이핑 텍스트 설정
 const typingTexts = {
     'tour': '//Kakao Public API, Planning (Figma), Canvas, Graph (R Programming)',
-    'woodin': '//jQuery, CSS (@Media), Scroll Events, Grid',
+    'woodin': '//jQuery, CSS (@Media, Grid), Scroll Events',
     'ansan': '//Calculator, Regular Expressions, Slideshow, Modal',
     'portfolio': '//iFrame, target',
     'dot': '//Canvas, Key Input',
