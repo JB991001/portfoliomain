@@ -2,18 +2,15 @@ const typingContainer = document.getElementById('typing-container');
 
 // 각 버튼에 맞는 타이핑 텍스트 설정
 const typingTexts = {
-    'tour': '카카오 공공 API를 활용한 팀 프로젝트로, 피그마와 유사한 디자인을 구현',
-    'woodin': '반응형 디자인을 적용한 상업용 페이지로, 깔끔한 디자인을 구현',
-    'ansan': '라인컴퓨터아트학원의 카피 페이지로, 주사위 게임과 계산기 기능이 포함',
-    'portfolio': '깔끔한 디자인과 간단한 기능 구현, 타겟 효과로 원하는 탭으로 바로 이동할수 있게 구현',
-    'dot': '캔버스 효과를 활용하여 떨어지는 점을 피하는 게임',
-    'break': '캔버스 효과를 활용한 클래식한 벽돌 깨기 게임',
-    'apple': 'Node.js와 구글 클라우드를 활용한 랭킹 시스템이 적용된 사과게임',
-    'aboutMe': '나에 대한 소개 페이지',
-    'Skills': '나의 기술들을 소개하는 페이지',
-    'contact': '저에게 연락할 수 있는 페이지',
-    'guestBook': 'Node.js와 구글 클라우드를 활용하여 방명록을 남길 수 있는 공간',
-    'toDoList': 'Node.js와 구글 클라우드를 활용한 회원가입, 로그인 기능으로 본인만의 To-Do 리스트를 작성할 수 있는 페이지',
+    'tour': '//카카오 공공 API, 기획서(피그마), 캔버스, 그래프(R프로그래밍)',
+    'woodin': '//jQuery, CSS(@Media), 스크롤 이벤트, 그리드',
+    'ansan': '//계산기, 정규식, 슬라이드, 모달',
+    'portfolio': '//iFrame, target',
+    'dot': '//캔버스, 키 입력',
+    'break': '//캔버스, 키 입력, 인터페이스',
+    'apple': '//Node.js, GCP, SQL, 랭킹시스템, 애니메이션',
+    'guestBook': '//Node.js, GCP, SQL',
+    'toDoList': '//Node.js, GCP, SQL, token, bcrypt 로그인, 회원가입',
 };
 
 // 각 버튼에 이벤트 추가
