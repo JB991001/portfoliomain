@@ -5,7 +5,7 @@ const typingTexts = {
     'tour': '//Kakao Public API, Planning (Figma), Canvas, Graph (R Programming)',
     'woodin': '//jQuery, CSS (@Media, Grid), Scroll Events',
     'ansan': '//Calculator, Regular Expressions, Slideshow, Modal',
-    'portfolio': '//iFrame, target',
+    'portfolio': '//ES6+(forEach, splice, includes)',
     'dot': '//Canvas, Key Input',
     'break': '//Canvas, Key Input, Interface',
     'apple': '//Node.js, GCP, SQL, Ranking System, Animation',
