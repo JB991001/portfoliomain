@@ -1,3 +1,8 @@
+html {
+    line-height: 1.15; /* 기본 줄 간격 조정 */
+    -webkit-text-size-adjust: 100%; /* iOS에서 텍스트 크기 자동 조정 방지 */
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +18,12 @@ body {
     position: relative;
     overflow: hidden;
     background-color: #222; 
+    margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
 
 /* 네비게이션 바 스타일 */
 .navbar {
